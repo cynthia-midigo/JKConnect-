@@ -1,0 +1,64 @@
+/*==================================================
+=            Bootstrap 3 Media Queries             =
+==================================================*/
+/*==========  Mobile First Method  ==========*/
+/* Custom, iPhone Retina */
+/* Extra Small Devices, Phones */
+/* Small Devices, Tablets */
+/* Medium Devices, Desktops */
+/* Large Devices, Wide Screens */
+/*==========  Non-Mobile First Method  ==========*/
+/* Large Devices, Wide Screens */
+@media only screen and (max-width: 1200px) {
+  .container {
+    max-width: 960px;
+  }
+}
+/* Medium Devices, Desktops */
+@media only screen and (max-width: 992px) {
+  header .top_nav {
+    flex-direction: column;
+  }
+  header .top_nav .logo {
+    height: auto;
+  }
+  header .top_nav ul {
+    height: 20px auto 0;
+    width: 80%;
+  }
+  header .hero {
+    grid-template-columns: 1fr;
+    text-align: centers;
+  }
+  header .hero .hero-image {
+    padding-left: 0;
+    margin-top: 40px;
+  }
+
+  .featured-section {
+    padding: 50px 0;
+  }
+  .featured-section .products {
+    grid-template-columns: 1fr;
+  }
+
+  .blog-section .blog-posts {
+    grid-template-columns: 1fr;
+    text-align: center;
+    grid-template-areas: "blog1" "blog2" "blog3";
+  }
+
+  .footer-content {
+    flex-direction: column;
+  }
+  .footer-content .made-with {
+    margin: auto;
+  }
+  .footer-content ul {
+    margin: 20px auto;
+    width: 60%;
+  }
+}
+/* Small Devices, Tablets */
+/* Extra Small Devices, Phones */
+/* Custom, iPhone Retina */
